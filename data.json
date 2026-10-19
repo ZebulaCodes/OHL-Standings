@@ -288,7 +288,7 @@
   "players": [
     {
       "name": "Andrew Yagla",
-      "number": 3,
+      "number": null,
       "games": 2,
       "goals": 0,
       "assists": 0,
