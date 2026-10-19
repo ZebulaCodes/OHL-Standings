@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ogden Hockey League</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Ogden Hockey League</h1>
+    <p class="subtitle" id="last-updated"></p>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab-btn active" data-tab="standings">Standings</button>
+    <button class="tab-btn" data-tab="schedule">Schedule</button>
+    <button class="tab-btn" data-tab="players">Player Stats</button>
+  </nav>
+
+  <main>
+    <section id="standings" class="tab-panel active">
+      <table class="data-table" id="standings-table">
+        <thead>
+          <tr>
+            <th data-key="team">Team</th>
+            <th data-key="gamesPlayed">GP</th>
+            <th data-key="regularWins">L</th>
+            <th data-key="OTwins">T</th>
+            <th data-key="OTlosses">OTL</th>
+            <th data-key="losses">L</th>
+            <th data-key="points" class="sorted-desc">PTS</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section id="schedule" class="tab-panel">
+      <div class="game-list" id="game-list"></div>
+    </section>
+
+    <section id="players" class="tab-panel">
+      <table class="data-table" id="players-table">
+        <thead>
+          <tr>
+            <th data-key="name">Player</th>
+            <th data-key="number">Number</th>
+            <th data-key="games">Games</th>
+            <th data-key="goals">Goals</th>
+            <th data-key="assists">Assists</th>
+            <th data-key="total" class="sorted-desc">PTS</th>
+            <th data-key="pim">PIM</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Ogden Hockey League &mdash; updated weekly</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,452 @@
+{
+  "league": "Ogden Hockey League (OHL)",
+  "season": "2026-2027",
+  "lastUpdated": "2026-10-19",
+  "standings": [
+    {
+      "team": "Warthogs",
+      "gamesPlayed": 3,
+      "regularWins": 2,
+      "OTwins": 1,
+      "OTlosses": 0,
+      "losses": 0,
+      "points": 8
+    },
+    {
+      "team": "Jets",
+      "gamesPlayed": 3,
+      "regularWins": 2,
+      "OTwins": 0,
+      "OTlosses": 0,
+      "losses": 1,
+      "points": 6
+    },
+    {
+      "team": "Kongs",
+      "gamesPlayed": 3,
+      "regularWins": 2,
+      "OTwins": 0,
+      "OTlosses": 0,
+      "losses": 1,
+      "points": 6
+    },
+    {
+      "team": "Sharks",
+      "gamesPlayed": 3,
+      "regularWins": 2,
+      "OTwins": 0,
+      "OTlosses": 0,
+      "losses": 1,
+      "points": 5
+    },
+    {
+      "team": "Bison",
+      "gamesPlayed": 3,
+      "regularWins": 1,
+      "OTwins": 1,
+      "OTlosses": 0,
+      "losses": 1,
+      "points": 5
+    },
+    {
+      "team": "Grizzlies",
+      "gamesPlayed": 2,
+      "regularWins": 1,
+      "OTwins": 0,
+      "OTlosses": 0,
+      "losses": 1,
+      "points": 3
+    },
+    {
+      "team": "Bad News Bears",
+      "gamesPlayed": 2,
+      "regularWins": 1,
+      "OTwins": 0,
+      "OTlosses": 0,
+      "losses": 1,
+      "points": 3
+    },
+    {
+      "team": "Venom",
+      "gamesPlayed": 2,
+      "regularWins": 1,
+      "OTwins": 0,
+      "OTlosses": 0,
+      "losses": 1,
+      "points": 3
+    },
+    {
+      "team": "Pirhanas",
+      "gamesPlayed": 2,
+      "regularWins": 1,
+      "OTwins": 0,
+      "OTlosses": 0,
+      "losses": 1,
+      "points": 3
+    },
+    {
+      "team": "Scorpions",
+      "gamesPlayed": 3,
+      "regularWins": 0,
+      "OTwins": 0,
+      "OTlosses": 2,
+      "losses": 1,
+      "points": 2
+    },
+    {
+      "team": "Ice Dogs",
+      "gamesPlayed": 3,
+      "regularWins": 0,
+      "OTwins": 0,
+      "OTlosses": 1,
+      "losses": 2,
+      "points": 1
+    },
+    {
+      "team": "Predators",
+      "gamesPlayed": 3,
+      "regularWins": 0,
+      "OTwins": 0,
+      "OTlosses": 1,
+      "losses": 2,
+      "points": 1
+    }
+  ],
+  "schedule": [
+    {
+      "date": "2026-10-04",
+      "time": "5:15 PM",
+      "home": "Venom",
+      "away": "Kongs",
+      "location": "Ogden Ice Sheet",
+      "homeScore": 1,
+      "awayScore": 2
+    },
+    {
+      "date": "2026-10-11",
+      "time": "8:15 PM",
+      "home": "Ice Dogs",
+      "away": "Venom",
+      "location": "Ogden Ice Sheet",
+      "homeScore": 2,
+      "awayScore": 4
+    },
+    {
+      "date": "2026-10-18",
+      "time": "6:45 PM",
+      "home": "Jets",
+      "away": "Venom",
+      "location": "Ogden Ice Sheet",
+      "homeScore": 1,
+      "awayScore": 3
+    },
+    {
+      "date": "2026-10-25",
+      "time": "8:15 PM",
+      "home": "Warthogs",
+      "away": "Venom",
+      "location": "Ogden Ice Sheet",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-11-08",
+      "time": "8:15 PM",
+      "home": "Venom",
+      "away": "Bad News Bears",
+      "location": "Ogden Ice Sheet",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-11-15",
+      "time": "10:15 PM",
+      "home": "Piranhas",
+      "away": "Venom",
+      "location": "Ogden Ice Sheet",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-11-22",
+      "time": "8:15 PM",
+      "home": "Venom",
+      "away": "Bison",
+      "location": "Ogden Ice Sheet",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-12-06",
+      "time": "5:15 PM",
+      "home": "Venom",
+      "away": "Predators",
+      "location": "Ogden Ice Sheet",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-12-13",
+      "time": "2:45 PM",
+      "home": "Scorpions",
+      "away": "Venom",
+      "location": "Ogden Ice Sheet",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-12-19",
+      "time": "9:00 PM",
+      "home": "Grizzlies",
+      "away": "Venom",
+      "location": "Ogden Ice Sheet",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-12-20",
+      "time": "5:15 PM",
+      "home": "Venom",
+      "away": "Grizzlies",
+      "location": "Ogden Ice Sheet",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2027-01-03",
+      "time": "8:15 PM",
+      "home": "Kongs",
+      "away": "Venom",
+      "location": "Ogden Ice Sheet",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2027-01-10",
+      "time": "6:45 PM",
+      "home": "Venom",
+      "away": "Ice Dogs",
+      "location": "Ogden Ice Sheet",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2027-01-25",
+      "time": "10:15 PM",
+      "home": "Venom",
+      "away": "Jets",
+      "location": "Ogden Ice Sheet",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2027-01-31",
+      "time": "8:15 PM",
+      "home": "Venom",
+      "away": "Warthogs",
+      "location": "Ogden Ice Sheet",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2027-02-04",
+      "time": "10:00 PM",
+      "home": "Bad News Bears",
+      "away": "Venom",
+      "location": "Ogden Ice Sheet",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2027-02-11",
+      "time": "10:00 PM",
+      "home": "Bison",
+      "away": "Venom",
+      "location": "Ogden Ice Sheet",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2027-02-28",
+      "time": "8:15 PM",
+      "home": "Predators",
+      "away": "Venom",
+      "location": "Ogden Ice Sheet",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2027-03-07",
+      "time": "9:45 PM",
+      "home": "Sharks",
+      "away": "Venom",
+      "location": "Ogden Ice Sheet",
+      "homeScore": null,
+      "awayScore": null
+    }
+  ],
+  "players": [
+    {
+      "name": "Andrew Yagla",
+      "number": 3,
+      "games": 2,
+      "goals": 0,
+      "assists": 0,
+      "total": 0,
+      "pim": "1:30"
+    },
+    {
+      "name": "Anna Ward",
+      "number": "3",
+      "games": "1",
+      "goals": "0",
+      "assists": 0,
+      "total": 0,
+      "pim": "0:00"
+    },
+    {
+      "name": "Kevin Whitehead",
+      "number": "5",
+      "games": "1",
+      "goals": "1",
+      "assists": 0,
+      "total": 1,
+      "pim": "0:00"
+    },
+    {
+      "name": "Tanner Bessinger",
+      "number": "6",
+      "games": "1",
+      "goals": "0",
+      "assists": 0,
+      "total": 0,
+      "pim": "0:00"
+    },
+    {
+      "name": "Hayden Arave",
+      "number": "9",
+      "games": "2",
+      "goals": "0",
+      "assists": 0,
+      "total": 0,
+      "pim": "0:00"
+    },
+    {
+      "name": "Randy Guthrie",
+      "number": "10",
+      "games": "2",
+      "goals": "0",
+      "assists": 0,
+      "total": 0,
+      "pim": "0:00"
+    },
+    {
+      "name": "Kyle Bartlome",
+      "number": "11",
+      "games": "1",
+      "goals": "3",
+      "assists": 0,
+      "total": 3,
+      "pim": "1:30"
+    },
+    {
+      "name": "Jay Burchett",
+      "number": "13",
+      "games": "1",
+      "goals": "0",
+      "assists": 0,
+      "total": 0,
+      "pim": "0:00"
+    },
+    {
+      "name": "Caleb Larsen",
+      "number": "14",
+      "games": "2",
+      "goals": "0",
+      "assists": 0,
+      "total": 0,
+      "pim": "1:30"
+    },
+    {
+      "name": "Nick Guthrie",
+      "number": "15",
+      "games": "2",
+      "goals": "0",
+      "assists": 0,
+      "total": 0,
+      "pim": "0:00"
+    },
+    {
+      "name": "Jonathan Walton",
+      "number": "16",
+      "games": "2",
+      "goals": "0",
+      "assists": 1,
+      "total": 1,
+      "pim": "1:30"
+    },
+    {
+      "name": "Seaver Yates",
+      "number": "17",
+      "games": "2",
+      "goals": "0",
+      "assists": 0,
+      "total": 0,
+      "pim": "0:00"
+    },
+    {
+      "name": "Jared Guthrie",
+      "number": "18",
+      "games": "2",
+      "goals": "0",
+      "assists": 0,
+      "total": 0,
+      "pim": "0:00"
+    },
+    {
+      "name": "Joe Butcher",
+      "number": "19",
+      "games": "2",
+      "goals": "0",
+      "assists": 1,
+      "total": 1,
+      "pim": "0:00"
+    },
+    {
+      "name": "Anthony Quinn",
+      "number": "20",
+      "games": "2",
+      "goals": "0",
+      "assists": 0,
+      "total": 0,
+      "pim": "0:00"
+    },
+    {
+      "name": "Mitchell Morris",
+      "number": "22",
+      "games": "2",
+      "goals": "1",
+      "assists": 0,
+      "total": 1,
+      "pim": "0:00"
+    },
+    {
+      "name": "Tanner Jensen",
+      "number": "null",
+      "games": "0",
+      "goals": "0",
+      "assists": 0,
+      "total": 0,
+      "pim": "0:00"
+    },
+    {
+      "name": "Kyle Bancroft",
+      "number": "null",
+      "games": "0",
+      "goals": "0",
+      "assists": 0,
+      "total": 0,
+      "pim": "0:00"
+    }
+  ]
+}
