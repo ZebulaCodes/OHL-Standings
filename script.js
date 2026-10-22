@@ -10,13 +10,16 @@ const MONTH_NAMES = [
 
 init();
 
+// Fetches the data.json file and puts the data into a variable called leagueData
 async function init() {
   const response = await fetch("data.json");
   leagueData = await response.json();
 
+  // Get the last-updated value and format the text
   document.getElementById("last-updated").textContent =
     `Updated ${leagueData.lastUpdated} — ${leagueData.season} season`;
 
+  // Set up the standings and players tables  
   setupTabs();
   setupSortableTable("standings-table", leagueData.standings, "points", "desc");
   setupSortableTable("players-table", leagueData.players, "total", "desc");
@@ -25,7 +28,10 @@ async function init() {
 }
 
 function setupTabs() {
+  // Add buttons to switch between tables/tabs
   const buttons = document.querySelectorAll(".tab-btn");
+
+  // Add listeners to each button
   buttons.forEach((btn) => {
     btn.addEventListener("click", () => {
       buttons.forEach((b) => b.classList.remove("active"));
@@ -44,15 +50,18 @@ function parseLocalDate(dateStr) {
   return new Date(year, month - 1, day);
 }
 
+// Sets up a sortable table with the given rows and default sort key/direction
 function setupSortableTable(tableId, rows, defaultKey, defaultDir, transform) {
-  const table = document.getElementById(tableId);
-  const tbody = table.querySelector("tbody");
+  const table   = document.getElementById(tableId);
+  const tbody   = table.querySelector("tbody");
   const headers = table.querySelectorAll("th");
 
+  // If transform is provided, apply to each row
   const data = transform ? rows.map(transform) : rows;
   let sortKey = defaultKey;
   let sortDir = defaultDir;
 
+  // Render each table row based on the sort key and direction
   function render() {
     const sorted = [...data].sort((a, b) => {
       const av = a[sortKey];
@@ -61,6 +70,7 @@ function setupSortableTable(tableId, rows, defaultKey, defaultDir, transform) {
       return sortDir === "asc" ? cmp : -cmp;
     });
 
+    // Clear the table body and append sorted rows
     tbody.innerHTML = "";
     sorted.forEach((row) => {
       const tr = document.createElement("tr");
