@@ -146,8 +146,8 @@
       "home": "Warthogs",
       "away": "Venom",
       "location": "Ogden Ice Sheet",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 4,
+      "awayScore": 3
     },
     {
       "date": "2026-11-08",
