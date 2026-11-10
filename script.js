@@ -2,7 +2,12 @@ let leagueData = null;
 
 const MY_TEAM = "Venom";
 
-const DAY_NAMES = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// How many standings points each result is worth
+const POINTS_PER_REGULAR_WIN = 3;
+const POINTS_PER_OT_WIN = 2;
+const POINTS_PER_OT_LOSS = 1;
+
+const DAY_NAMES =["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 const MONTH_NAMES = [
   "January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
@@ -31,11 +36,20 @@ async function init() {
 
   // Set up the standings and players tables
   setupTabs();
-  setupSortableTable("standings-table", leagueData.standings, "points", "desc");
+  setupSortableTable("standings-table", leagueData.standings, "points", "desc", addPoints);
   setupSortableTable("players-table", leagueData.players, "total", "desc");
 
   renderGameList();
 }
+// Returns a copy of a standings row with "points" calculated from its wins and OT losses
+function addPoints(team) {
+  const points =
+    Number(team.regularWins || 0) * POINTS_PER_REGULAR_WIN +
+    Number(team.OTwins || 0) * POINTS_PER_OT_WIN +
+    Number(team.OTlosses || 0) * POINTS_PER_OT_LOSS;
+  return { ...team, points };
+}
+
 function setupTabs() {
   // Add buttons to switch between tables/tabs
   const buttons = document.querySelectorAll(".tab-btn");

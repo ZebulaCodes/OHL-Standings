@@ -8,8 +8,7 @@
       "regularWins": 3,
       "OTwins": 1,
       "OTlosses": 0,
-      "losses": 0,
-      "points": 11
+      "losses": 0
     },
     {
       "team": "Jets",
@@ -17,8 +16,7 @@
       "regularWins": 2,
       "OTwins": 0,
       "OTlosses": 0,
-      "losses": 2,
-      "points": 6
+      "losses": 2
     },
     {
       "team": "Kongs",
@@ -26,8 +24,7 @@
       "regularWins": 3,
       "OTwins": 0,
       "OTlosses": 0,
-      "losses": 1,
-      "points": 9
+      "losses": 1
     },
     {
       "team": "Sharks",
@@ -35,8 +32,7 @@
       "regularWins": 2,
       "OTwins": 0,
       "OTlosses": 0,
-      "losses": 1,
-      "points": 5
+      "losses": 1
     },
     {
       "team": "Bison",
@@ -44,8 +40,7 @@
       "regularWins": 1,
       "OTwins": 1,
       "OTlosses": 0,
-      "losses": 1,
-      "points": 5
+      "losses": 1
     },
     {
       "team": "Grizzlies",
@@ -53,8 +48,7 @@
       "regularWins": 1,
       "OTwins": 1,
       "OTlosses": 0,
-      "losses": 1,
-      "points": 5
+      "losses": 1
     },
     {
       "team": "Bad News Bears",
@@ -62,8 +56,7 @@
       "regularWins": 1,
       "OTwins": 0,
       "OTlosses": 0,
-      "losses": 2,
-      "points": 3
+      "losses": 2
     },
     {
       "team": "Venom",
@@ -71,8 +64,7 @@
       "regularWins": 2,
       "OTwins": 0,
       "OTlosses": 1,
-      "losses": 2,
-      "points": 6
+      "losses": 2
     },
     {
       "team": "Pirhanas",
@@ -80,8 +72,7 @@
       "regularWins": 1,
       "OTwins": 0,
       "OTlosses": 1,
-      "losses": 1,
-      "points": 4
+      "losses": 1
     },
     {
       "team": "Scorpions",
@@ -89,8 +80,7 @@
       "regularWins": 0,
       "OTwins": 0,
       "OTlosses": 2,
-      "losses": 1,
-      "points": 2
+      "losses": 1
     },
     {
       "team": "Ice Dogs",
@@ -98,8 +88,7 @@
       "regularWins": 0,
       "OTwins": 0,
       "OTlosses": 1,
-      "losses": 3,
-      "points": 1
+      "losses": 3
     },
     {
       "team": "Predators",
@@ -107,8 +96,7 @@
       "regularWins": 0,
       "OTwins": 0,
       "OTlosses": 1,
-      "losses": 2,
-      "points": 1
+      "losses": 2
     }
   ],
   "schedule": [
