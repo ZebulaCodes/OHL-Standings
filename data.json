@@ -155,8 +155,8 @@
       "home": "Venom",
       "away": "Bad News Bears",
       "location": "Ogden Ice Sheet",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 4
     },
     {
       "date": "2026-11-15",
