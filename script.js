@@ -15,18 +15,27 @@ async function init() {
   const response = await fetch("data.json");
   leagueData = await response.json();
 
-  // Get the last-updated value and format the text
-  document.getElementById("last-updated").textContent =
-    `Updated ${leagueData.lastUpdated} — ${leagueData.season} season`;
+  // Ask the server when data.json was last changed.
+  // If it doesn't say (header missing), fall back to today's date.
+  const modified = response.headers.get("Last-Modified");
+  const lastUpdated = modified ? new Date(modified) : new Date();
 
-  // Set up the standings and players tables  
+  const yyyy = lastUpdated.getFullYear();
+  const mm = String(lastUpdated.getMonth() + 1).padStart(2, '0'); // Months start at 0
+  const dd = String(lastUpdated.getDate()).padStart(2, '0');
+
+  const formattedDate = `${yyyy}-${mm}-${dd}`;
+
+  document.getElementById("last-updated").textContent =
+    `Updated ${formattedDate} — ${leagueData.season} season`;
+
+  // Set up the standings and players tables
   setupTabs();
   setupSortableTable("standings-table", leagueData.standings, "points", "desc");
   setupSortableTable("players-table", leagueData.players, "total", "desc");
 
   renderGameList();
 }
-
 function setupTabs() {
   // Add buttons to switch between tables/tabs
   const buttons = document.querySelectorAll(".tab-btn");
