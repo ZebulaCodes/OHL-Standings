@@ -24,7 +24,7 @@ async function init() {
   const mm = String(lastUpdated.getMonth() + 1).padStart(2, '0'); // Months start at 0
   const dd = String(lastUpdated.getDate()).padStart(2, '0');
 
-  const formattedDate = `${yyyy}-${mm}-${dd}`;
+  const formattedDate = `${mm}-${dd}-${yyyy}`;
 
   document.getElementById("last-updated").textContent =
     `Updated ${formattedDate} — ${leagueData.season} season`;
