@@ -4,59 +4,59 @@
   "standings": [
     {
       "team": "Warthogs",
-      "gamesPlayed": 4,
-      "regularWins": 3,
-      "OTwins": 1,
+      "gamesPlayed": 6,
+      "regularWins": 4,
+      "OTwins": 2,
       "OTlosses": 0,
       "losses": 0
     },
     {
       "team": "Jets",
-      "gamesPlayed": 4,
-      "regularWins": 2,
+      "gamesPlayed": 6,
+      "regularWins": 4,
       "OTwins": 0,
       "OTlosses": 0,
       "losses": 2
     },
     {
       "team": "Kongs",
-      "gamesPlayed": 4,
-      "regularWins": 3,
+      "gamesPlayed": 6,
+      "regularWins": 4,
       "OTwins": 0,
-      "OTlosses": 0,
+      "OTlosses": 1,
       "losses": 1
     },
     {
       "team": "Sharks",
-      "gamesPlayed": 3,
-      "regularWins": 2,
-      "OTwins": 0,
+      "gamesPlayed": 6,
+      "regularWins": 3,
+      "OTwins": 1,
       "OTlosses": 0,
-      "losses": 1
+      "losses": 2
     },
     {
       "team": "Bison",
-      "gamesPlayed": 3,
-      "regularWins": 1,
+      "gamesPlayed": 6,
+      "regularWins": 2,
       "OTwins": 1,
       "OTlosses": 0,
-      "losses": 1
+      "losses": 3
     },
     {
       "team": "Grizzlies",
-      "gamesPlayed": 3,
+      "gamesPlayed": 5,
       "regularWins": 1,
       "OTwins": 1,
-      "OTlosses": 0,
-      "losses": 1
+      "OTlosses": 1,
+      "losses": 2
     },
     {
       "team": "Bad News Bears",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "regularWins": 2,
       "OTwins": 0,
       "OTlosses": 0,
-      "losses": 2
+      "losses": 3
     },
     {
       "team": "Venom",
@@ -68,32 +68,32 @@
     },
     {
       "team": "Pirhanas",
-      "gamesPlayed": 3,
+      "gamesPlayed": 5,
       "regularWins": 1,
       "OTwins": 0,
-      "OTlosses": 1,
-      "losses": 1
+      "OTlosses": 2,
+      "losses": 2
     },
     {
       "team": "Scorpions",
-      "gamesPlayed": 3,
+      "gamesPlayed": 6,
       "regularWins": 0,
-      "OTwins": 0,
+      "OTwins": 1,
       "OTlosses": 2,
-      "losses": 1
-    },
-    {
-      "team": "Ice Dogs",
-      "gamesPlayed": 4,
-      "regularWins": 0,
-      "OTwins": 0,
-      "OTlosses": 1,
       "losses": 3
     },
     {
-      "team": "Predators",
-      "gamesPlayed": 3,
+      "team": "Ice Dogs",
+      "gamesPlayed": 6,
       "regularWins": 0,
+      "OTwins": 1,
+      "OTlosses": 1,
+      "losses": 4
+    },
+    {
+      "team": "Predators",
+      "gamesPlayed": 6,
+      "regularWins": 3,
       "OTwins": 0,
       "OTlosses": 1,
       "losses": 2
@@ -276,10 +276,10 @@
     {
       "name": "Andrew Yagla",
       "number": "null",
-      "games": 3,
-      "goals": 0,
+      "games": 5,
+      "goals": 2,
       "assists": 0,
-      "total": 0,
+      "total": 2,
       "pim": "1:30"
     },
     {
@@ -294,7 +294,7 @@
     {
       "name": "Kevin Whitehead",
       "number": "5",
-      "games": "2",
+      "games": "3",
       "goals": "1",
       "assists": 0,
       "total": 1,
@@ -303,7 +303,7 @@
     {
       "name": "Tanner Bessinger",
       "number": "6",
-      "games": "2",
+      "games": "4",
       "goals": "0",
       "assists": 0,
       "total": 0,
@@ -312,7 +312,7 @@
     {
       "name": "Hayden Arave",
       "number": "9",
-      "games": "2",
+      "games": "3",
       "goals": "0",
       "assists": 0,
       "total": 0,
@@ -321,7 +321,7 @@
     {
       "name": "Randy Guthrie",
       "number": "10",
-      "games": "2",
+      "games": "3",
       "goals": "0",
       "assists": 0,
       "total": 0,
@@ -330,16 +330,16 @@
     {
       "name": "Kyle Bartlome",
       "number": "11",
-      "games": "1",
-      "goals": "3",
-      "assists": 0,
-      "total": 3,
+      "games": "2",
+      "goals": "4",
+      "assists": 1,
+      "total": 5,
       "pim": "1:30"
     },
     {
       "name": "Jay Burchett",
       "number": "13",
-      "games": "2",
+      "games": "4",
       "goals": "0",
       "assists": 1,
       "total": 1,
@@ -348,16 +348,16 @@
     {
       "name": "Caleb Larsen",
       "number": "14",
-      "games": "3",
-      "goals": "0",
+      "games": "5",
+      "goals": "1",
       "assists": 0,
-      "total": 0,
+      "total": 1,
       "pim": "1:30"
     },
     {
       "name": "Nick Guthrie",
       "number": "15",
-      "games": "3",
+      "games": "4",
       "goals": "0",
       "assists": 0,
       "total": 0,
@@ -366,7 +366,7 @@
     {
       "name": "Jonathan Walton",
       "number": "16",
-      "games": "3",
+      "games": "5",
       "goals": "1",
       "assists": 1,
       "total": 2,
@@ -375,7 +375,7 @@
     {
       "name": "Seaver Yates",
       "number": "17",
-      "games": "3",
+      "games": "5",
       "goals": "0",
       "assists": 0,
       "total": 0,
@@ -384,25 +384,25 @@
     {
       "name": "Jared Guthrie",
       "number": "18",
-      "games": "3",
-      "goals": "0",
+      "games": "5",
+      "goals": "1",
       "assists": 0,
-      "total": 0,
+      "total": 1,
       "pim": "0:00"
     },
     {
       "name": "Joe Butcher",
       "number": "19",
       "games": "3",
-      "goals": "2",
+      "goals": "0",
       "assists": 1,
-      "total": 3,
+      "total": 1,
       "pim": "0:00"
     },
     {
       "name": "Anthony Quinn",
       "number": "20",
-      "games": "3",
+      "games": "4",
       "goals": "0",
       "assists": 0,
       "total": 0,
@@ -411,11 +411,11 @@
     {
       "name": "Mitchell Morris",
       "number": "22",
-      "games": "3",
+      "games": "5",
       "goals": "1",
       "assists": 0,
       "total": 1,
-      "pim": "1:30"
+      "pim": "3:00"
     },
     {
       "name": "Tanner Jensen",
