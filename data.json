@@ -60,19 +60,19 @@
     },
     {
       "team": "Venom",
-      "gamesPlayed": 5,
-      "regularWins": 2,
+      "gamesPlayed": 6,
+      "regularWins": 3,
       "OTwins": 0,
       "OTlosses": 1,
       "losses": 2
     },
     {
       "team": "Pirhanas",
-      "gamesPlayed": 5,
+      "gamesPlayed": 6,
       "regularWins": 1,
       "OTwins": 0,
       "OTlosses": 2,
-      "losses": 2
+      "losses": 3
     },
     {
       "team": "Scorpions",
@@ -151,8 +151,8 @@
       "home": "Piranhas",
       "away": "Venom",
       "location": "Ogden Ice Sheet",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 5
     },
     {
       "date": "2026-11-22",
